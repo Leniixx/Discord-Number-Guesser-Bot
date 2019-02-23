@@ -31,12 +31,12 @@ bot.on('message', (message) => {
         }
         else if(mes[1] < num)
         {
-            message.reply(mes[1] + ' is too low');
+            message.reply(mes[1] + ' Plus petit');
             guesses++;
         }
         else if(mes[1] > num)
         {
-            message.reply(mes[1] + ' is too high');
+            message.reply(mes[1] + ' Plus grand');
             guesses++;
         }
     }
